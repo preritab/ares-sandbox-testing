@@ -9,7 +9,7 @@ allowlist:
   - pkg.acme.test
 flaws:
   fetch_through: true
-  suffix_match: true
+  suffix_match: false
   follow_redirects: true
   policy_race: false
   metadata_open: true
