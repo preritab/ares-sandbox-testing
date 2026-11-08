@@ -8,8 +8,8 @@ allowlist:
   - api.acme.test
   - pkg.acme.test
 flaws:
-  fetch_through: true
-  suffix_match: true
+  fetch_through: false
+  suffix_match: false
   follow_redirects: true
   policy_race: false
   metadata_open: true
